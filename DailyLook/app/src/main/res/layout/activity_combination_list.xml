@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MyclosetActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Look"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/black"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <ImageButton
+        android:id="@+id/ib_menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_baseline_menu_24"
+        app:layout_constraintBottom_toTopOf="@id/view"
+        app:layout_constraintStart_toEndOf="@id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="380dp"
+        android:layout_height="3dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="400dp"
+        android:layout_height="530dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toBottomOf="@id/view"
+        app:layout_constraintStart_toStartOf="@id/view"
+        app:layout_constraintEnd_toEndOf="@id/view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <FrameLayout
+            android:id="@+id/frame1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/top_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPager_idol"
+
+                android:layout_gravity="center"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+
+                android:layout_marginBottom="10dp"/>
+
+            <me.relex.circleindicator.CircleIndicator3
+                android:id="@+id/indicator1"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                app:ci_drawable="@color/black" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/frame2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/frame1">
+
+            <TextView
+                android:id="@+id/under_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Under"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPager_idol2"
+
+                android:layout_gravity="center"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="10dp"/>
+            <me.relex.circleindicator.CircleIndicator3
+                android:id="@+id/indicator2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                app:ci_drawable="@color/black" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/frame2">
+
+            <TextView
+                android:id="@+id/shoes_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shoes"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPager_idol3"
+
+                android:layout_gravity="center"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="10dp"/>
+            <me.relex.circleindicator.CircleIndicator3
+                android:id="@+id/indicator3"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                app:ci_drawable="@color/black" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/frame4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/frame3">
+
+            <Button
+                android:id="@+id/combination_plus_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="룩조합하기"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+        </FrameLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
