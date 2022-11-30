@@ -9,25 +9,31 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Shaders">
-      <UniqueIdentifier>{4fdb529f-3d5f-4766-a09a-6ac1e605c343}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Shaders\리소스 파일">
+    <Filter Include="리소스 파일">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{4fdb529f-3d5f-4766-a09a-6ac1e605c343}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader\6.1.cubemaps.fs">
+    <None Include="shader\cubemap.fs">
       <Filter>Shaders</Filter>
     </None>
-    <None Include="shader\6.1.cubemaps.vs">
+    <None Include="shader\cubemap.vs">
       <Filter>Shaders</Filter>
     </None>
-    <None Include="shader\6.1.skybox.fs">
+    <None Include="shader\skybox.fs">
       <Filter>Shaders</Filter>
     </None>
-    <None Include="shader\6.1.skybox.vs">
+    <None Include="shader\skybox.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\Desktop\GPUProgramming\shader\football_ball.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\Desktop\GPUProgramming\shader\football_ball.vs">
       <Filter>Shaders</Filter>
     </None>
   </ItemGroup>
