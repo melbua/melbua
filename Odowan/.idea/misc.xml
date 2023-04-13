@@ -10,6 +10,7 @@
         <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/drawable/navigation_bar.xml" value="0.199" />
         <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/layout/activity_location_detail.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/layout/activity_main2.xml" value="0.22644927536231885" />
         <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/layout/activity_navigation.xml" value="0.18" />
         <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/layout/activity_recycler_view.xml" value="0.286231884057971" />
         <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/layout/activity_seoul.xml" value="0.18" />
@@ -17,9 +18,12 @@
         <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/layout/fragment_blank.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/layout/fragment_dashboard.xml" value="0.1875" />
         <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/layout/fragment_home.xml" value="0.1875" />
+        <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/layout/fragment_list.xml" value="0.1875" />
         <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/layout/navigation_bar.xml" value="0.1875" />
         <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/layout/recycler_view.xml" value="0.1" />
         <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/menu/bottom_navigation.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/menu/navi_menu.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/menu/navigation_menu.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/kvx25/Desktop/Odowan/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1265" />
       </map>
